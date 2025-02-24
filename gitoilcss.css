@@ -212,3 +212,12 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+body {
+  background-image: url('../images/background.jpg'); /* Adjust path as needed */
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image tiling */
+  background-attachment: fixed; /* Makes background stay in place while scrolling */
+  color: white; /* Adjust text color for readability */
+}
