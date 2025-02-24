@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Big Bro's Mobile Oil Change</title>
 <link rel="stylesheet" href="css/configcssforoo.css">
-  <script src="script.js" defer></script>
+<script src="javaScript/javaforwebsiteoil.js" defer></script>
 </head>
 <body>
   <header>
