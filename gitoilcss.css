@@ -214,10 +214,9 @@ footer {
 }
 
 body {
-  background-image: url('../images/background.jpg'); /* Adjust path as needed */
-  background-size: cover; /* Ensures the image covers the entire page */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents image tiling */
-  background-attachment: fixed; /* Makes background stay in place while scrolling */
-  color: white; /* Adjust text color for readability */
+  background-image: url('images/oil%20change2.jpg'); /* Correct encoding for spaces */
+  background-size: cover; /* Ensure the image covers the entire page */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-attachment: fixed; /* Keep background in place while scrolling */
 }
