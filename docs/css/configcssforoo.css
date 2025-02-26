@@ -212,3 +212,10 @@ footer {
   bottom: 0;
   width: 100%;
 }
+body {
+  background-image: url('docs/images/oilchange2.jpg'); /* Correct encoding for spaces */
+  background-size: cover; /* Ensure the image covers the entire page */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-attachment: fixed; /* Keep background in place while scrolling */
+}
