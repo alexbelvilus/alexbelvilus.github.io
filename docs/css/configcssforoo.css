@@ -213,7 +213,7 @@ footer {
   width: 100%;
 }
 .hero {
-    background-image: url('docs/images/oil_change2.jpg');
+    background-image: url('../docs/images/oil_change2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
