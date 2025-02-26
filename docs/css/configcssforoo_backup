@@ -1,0 +1,222 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Header with background image */
+header {
+   background-color: #333; /* Dark background color */
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* Additional header content styles (optional) */
+header h1 {
+  font-size: 40px;
+  margin: 0;
+  z-index: 1; /* Ensure text appears over image */
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #00afb9;
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Phone number style under CTA */
+.phone-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Services Section */
+.services {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #f4f4f4;
+  padding: 60px 20px; /* Increased padding for a more spacious feel */
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form container */
+.form-container {
+  max-width: 600px; /* Max width for the form */
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #2d87f0; /* Blue border on focus */
+  outline: none;
+}
+
+/* Submit button */
+.submit-btn {
+  background-color: #2d87f0;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #1d6bb8; /* Darker blue on hover */
+}
+
+/* Form success and error messages */
+.form-messages {
+  margin-top: 20px;
+}
+
+.success-message,
+.error-message {
+  padding: 15px;
+  border-radius: 5px;
+  display: none;
+  margin-top: 10px;
+}
+
+.success-message {
+  background-color: #4caf50;
+  color: white;
+}
+
+.error-message {
+  background-color: #f44336;
+  color: white;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.hero {
+    background-image: url('../docs/images/oil_change2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0; /* Adjust padding as needed */
+    color: white; /* Ensure text is visible */
+}
