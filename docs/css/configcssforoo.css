@@ -212,10 +212,11 @@ footer {
   bottom: 0;
   width: 100%;
 }
-body {
-  background-image: url('docs/images/oil_change2.jpg'); /* Correct encoding for spaces */
-  background-size: cover; /* Ensure the image covers the entire page */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Prevent tiling */
-  background-attachment: fixed; /* Keep background in place while scrolling */
+.hero {
+    background-image: url('images/oil_change2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0; /* Adjust padding as needed */
+    color: white; /* Ensure text is visible */
 }
