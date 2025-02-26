@@ -214,7 +214,7 @@ footer {
 }
 
 body {
-  background-image: url('images/oil%20change2.jpg'); /* Correct encoding for spaces */
+  background-image: url('docs/oilchange%2.jpg'); /* Correct encoding for spaces */
   background-size: cover; /* Ensure the image covers the entire page */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent tiling */
