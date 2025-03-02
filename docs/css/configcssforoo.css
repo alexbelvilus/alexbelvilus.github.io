@@ -212,3 +212,12 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+.hero {
+    background-image: url('../docs/images/oil_change2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0; /* Adjust padding as needed */
+    color: white; /* Ensure text is visible */
+}
