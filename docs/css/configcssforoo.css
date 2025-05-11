@@ -137,6 +137,13 @@ header nav ul li a {
   color: #333;
 }
 
+.img-fluid {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Form container */
 .form-container {
   max-width: 600px; /* Max width for the form */
