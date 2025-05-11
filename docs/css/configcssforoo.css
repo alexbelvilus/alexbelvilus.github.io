@@ -221,3 +221,57 @@ footer {
     padding: 100px 0; /* Adjust padding as needed */
     color: white; /* Ensure text is visible */
 }
+
+/* Oil Change Info Section */
+#why-oil-change {
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+#why-oil-change .container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#why-oil-change h2 {
+  color: #222;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#why-oil-change p {
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+
+#why-oil-change ul {
+  text-align: left;
+  display: inline-block;
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.6;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#why-oil-change li {
+  margin-bottom: 8px;
+}
+
+#why-oil-change .highlight {
+  color: #e63946;
+  font-weight: bold;
+}
+
+#why-oil-change a {
+  color: #1d3557;
+  text-decoration: none;
+}
+
+#why-oil-change a:hover {
+  text-decoration: underline;
+}
