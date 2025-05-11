@@ -50,6 +50,7 @@ header nav ul li a {
 }
 
 /* Hero Section */
+/* Hero Section */
 .hero {
   background-color: #00afb9;
   color: #fff;
@@ -66,6 +67,19 @@ header nav ul li a {
 .hero-content p {
   font-size: 18px;
   margin-bottom: 20px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-fluid {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .cta-button {
