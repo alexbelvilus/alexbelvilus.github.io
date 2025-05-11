@@ -81,7 +81,27 @@ header nav ul li a {
   height: auto;
   display: block;
 }
+.hero h1, .hero p {
+  margin: 0;
+  padding: 20px 0; /* Add padding on top and bottom of the hero content */
+}
 
+/* Services Section */
+.services {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.services p, .services ul {
+  color: #333; /* Ensures text is visible */
+}
 .cta-button {
   background-color: #fff;
   color: #333;
