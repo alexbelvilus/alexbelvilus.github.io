@@ -55,6 +55,7 @@ header nav ul li a {
   color: #fff;
   padding: 80px 20px;
   text-align: center;
+  width: 100%;
 }
 
 .hero-content h2 {
