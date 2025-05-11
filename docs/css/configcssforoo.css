@@ -90,6 +90,8 @@ header nav ul li a {
   background-color: #fff;
   padding: 40px 20px;
   text-align: center;
+  color: #333; /* Ensures dark text on light background */
+}
 }
 
 .services h2 {
